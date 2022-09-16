@@ -1,7 +1,15 @@
-const Index = (): JSX.Element => {
+import Head from "next/head";
+
+import Main from "../components/Main";
+
+const Index = () => {
   return (
     <>
-      <div>Hello World!</div>
+      <Head>
+        <title>QR Code</title>
+      </Head>
+
+      <Main />
     </>
   );
 };
