@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import Main from "../components/Main";
 
-const Index = () => {
+const Index = (): JSX.Element => {
   return (
     <>
       <Head>
